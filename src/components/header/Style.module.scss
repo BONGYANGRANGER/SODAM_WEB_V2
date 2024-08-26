@@ -1,0 +1,33 @@
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 64px;
+  background-color: #fff;
+  border-bottom: 1px solid #d9d9d9;
+  position: fixed;
+  z-index: 10;
+  justify-content: space-between;
+}
+
+.headContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headNav {
+  display: flex;
+  gap: 32px;
+}
+
+.logoLink {
+  height: 100%;
+}
+
+.logoPng {
+  height: 32px;
+  width: auto;
+}

@@ -1,0 +1,24 @@
+.footerContainer {
+  height: 170px;
+  position: relative;
+  transform: translateY(0%);
+  width: 100%;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+}
+
+.title {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}

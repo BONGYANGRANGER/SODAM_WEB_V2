@@ -1,0 +1,32 @@
+.postContainer {
+    width: 100%;
+    height: auto;
+}
+
+.sellContainer {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+}
+
+.sellerName {
+    font-size: 14px;
+    color: #949494;
+}
+
+.productName {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.price {
+    font-weight: 900;
+    font-size: 22px;
+    margin-top: 10px;
+}

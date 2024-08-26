@@ -1,0 +1,141 @@
+.mainContainer {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.notice {
+    width: 100%;
+    text-align: center;
+}
+
+.noticeImg {
+    margin-top: 100px;
+}
+
+.projectSection {
+    width: 100%;
+    padding-top: 20px;
+    overflow-x: hidden;
+}
+
+.inner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.uploadButton {
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #6a96ec;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.uploadButton:hover {
+    background-color: #5578d1;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    color: #8e94a0;
+}
+
+.chevronIcon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.chevronIcon:hover {
+    color: #333;
+}
+
+.postSlider {
+    padding-top: 10px;
+    display: flex;
+    gap: 25px;
+    padding-bottom: 20px;
+    overflow-x: auto;
+}
+
+.postSlider::-webkit-scrollbar {
+    display: none;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.tab {
+    font-size: 16px;
+    cursor: pointer;
+    color: #000;
+    width: 80px;
+    height: 35px;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.tab.active {
+    color: #fff;
+    background-color: #1FAD1F;
+}
+
+.tab:hover {
+    background-color: #f0f0f0;
+}
+
+.postGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.loadMoreButton {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    font-size: 16px;
+    gap: 6px;
+    font-weight: 500;
+    background-color: #fff;
+    border: 1.5px solid #bcbcbc;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(50, 50, 50, 0.1);
+    transition: background-color 0.3s;
+}
+
+.loadMoreButton:hover {
+    background-color: #f9f9f9;
+}
